@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup form</title>
+</head>
+<body bgcolor="orange">
+    <center><h1>Signup</h1>
+        <form action="" method="post" autocomplete="off">
+            <fieldset>
+                <legend>Enter the required details:</legend>
+                <table cellspacing="20" bgcolor="skyblue">
+                    <tr>
+                        <td>
+                            <label for="name">Name</label>
+                        </td>
+                        <td>
+                            <input type="text" id="name" placeholder="Enter the user name" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="pass">Password</label> 
+                        </td>
+                        <td>
+                            <input type="password" id="pass" placeholder="Enter the password" required>
+                        </td>
+                    </tr>
+                       
+                    <tr>
+                        <td>
+                            <label for="mail">E-mail</label> 
+                        </td>
+                        <td>
+                            <input type="email" id="mail" placeholder="Enter the E-mail" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="add">Address</label>
+                        </td>
+                        <td>
+                            <textarea id="add" placeholder="Enter the address" required></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="date">Date</label> 
+                        </td>
+                        <td>
+                            <input type="date" name="date" id="date" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="Courses">Courses</label> 
+                        </td>
+                        <td>
+                            <select name="Courses" id="Courses">
+                            <option value="Physics" id="">Physics</option>
+                            <option value="Mathematics" id="">Mathematics</option>
+                            <option value="Computer science" id="">Computer science</option>
+                            </select>    
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="num">Number</label>
+                        </td>
+                        <td>
+                            <input type="tel" id="num" name="number" minlength="0" maxlength="10">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <button type="submit">Submit</button> 
+                        </td>
+                        <td>
+                            <button type="reset">Cancel</button> 
+                        </td>
+                    </tr>
+
+                </table>
+            </fieldset>
+        </form>
+    </center>
+          
+</body>
+</html>

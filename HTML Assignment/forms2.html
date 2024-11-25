@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Froms2</title>
+</head>
+<body>
+    <!-- <form action="" autocomplete="off" method="post"></form> - (post method) -->
+    <form action="" autocomplete="off" method="get">
+        <fieldset>
+            <legend>Enter the details:</legend>
+
+            <table bgcolor="yellow">
+                <tr>
+                    <td>
+                        <label for="fn">FirstName</label> 
+                    </td>
+                    <td>
+                        <input type="text" name="firstname" id="fn" placeholder="Enter the First Name" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="ln">LastName</label> 
+                    </td>
+                    <td>
+                        <input type="text" name="lastname" id="fn" placeholder="Enter the Last Name" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="pass">Password</label> 
+                    </td>
+                    <td>
+                        <input type="password" name="password" id="pass" placeholder="Enter the password" required>
+                    </td>
+                </tr>
+               
+                <tr>
+                    <td>
+                        <label for="mail">E-mail</label> 
+                    </td>
+                    <td>
+                        <input type="email" name="mail" id="mail" placeholder="Enter the E-mail" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="address">Address</label> 
+                    </td>
+                    <td>
+                        <textarea name="" id="address"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="date">Date</label> 
+                    </td>
+                    <td>
+                        <input type="date" name="date" id="date" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="technology">Technologies</label> 
+                    </td>
+                    <td>
+                        <select name="technology" id="technology">
+                        <option value="HTML" id="">HTML</option>
+                        <option value="CSS" id="">CSS</option>
+                        <option value="JAVA" id="">JAVA</option>
+                        <option value="REACT JS" id="">REACT JS</option>
+                        </select>    
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="gen">Gender</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="gen" name="gender" value="male">Male 
+                        <input type="radio" id="gen" name="gender" value="female">Female 
+                        <input type="radio" id="gen" name="gender" value="male">Others 
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="">Sports</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="sports" value="cricket">Cricket 
+                        <input type="checkbox" name="sports" value="Football">Football
+                        <input type="checkbox" name="sports" value="Hockey">Hockey  
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="">upload an image</label>
+                    </td>
+                    <td>
+                        <input type="image" src="https://images.unsplash.com/photo-1719937206158-cad5e6775044?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8" height="50px" weight="50px">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="file">upload an file</label>
+                    </td>
+                    <td>
+                        <input type="file" id="file" name="file name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="num">Number</label>
+                    </td>
+                    <td>
+                        <input type="tel" id="num" name="number" minlength="0" maxlength="10">
+                    </td>
+                </tr>
+
+                    <tr>
+                        <td>
+                            <button type="submit">Submit</button> 
+                        </td>
+                        <td>
+                            <button type="reset">Cancel</button> 
+                        </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

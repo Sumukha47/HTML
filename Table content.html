@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables in HTML</title>
+</head>
+<body>
+    <center>
+        <h1>Tables in HTML</h1>
+    </center>
+    
+    <center>
+        <table border="2px" cellpadding="50px" cellspacing="5px" bgcolor="khaki">
+            <thead bgcolor="aqua">
+                <tr>
+                    <th colspan="3">1</th>
+                    <!-- <th>AGE</th>
+                    <th>NAME</th> -->
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>
+                        <table border="1px" cellpadding="50px" cellspacing="5px" bgcolor="orange">
+                            <tr>
+                                <td bgcolor="silver">2</td>
+                                <td bgcolor="silver">3</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" bgcolor="skyblue">
+                                    <table border="1px" cellpadding="50px" cellspacing="5px" bgcolor="hotpink">
+                                        <tr>
+                                            <td bgcolor="silver">4</td>
+                                            <td bgcolor="silver">5</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                
+                                <!-- <td></td> -->
+                            </tr>
+
+                        </table>
+                    </td>
+                    <td>
+                        <table border="1px" cellpadding="50px" cellspacing="5px" bgcolor="lime">
+                            <tr>
+                                <td bgcolor="silver">6</td>
+                            </tr>
+                            <tr>
+                                <td bgcolor="silver">7</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+</body>
+</html>

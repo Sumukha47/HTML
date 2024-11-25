@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables in HTML</title>
+</head>
+<body>
+    <center>
+        <h1>Tables in HTML</h1>
+    </center>
+    
+    <center>
+        <table border="2px" cellpadding="50px" cellspacing="20px" bgcolor="khaki">
+            <thead bgcolor="aqua">
+                <tr>
+                    <th>ID</th>
+                    <th>AGE</th>
+                    <th>NAME</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td rowspan="2" bgcolor="olive">20</td>
+                    <td>
+                        <table border="1px" cellpadding="50px" cellspacing="20px" bgcolor="brown">
+                            <tr>
+                                <td rowspan="2" bgcolor="green">5</td>
+                                <td>
+                                    <table border="1px" cellpadding="50px" cellspacing="20px" bgcolor="pink">
+                                        <tr>
+                                            <td bgcolor="silver">9</td>
+                                            <td bgcolor="yellow">10</td>
+                                        </tr>
+            
+                                        <tr>
+                                            <td colspan="2" bgcolor="lime">11</td>
+                                            <!-- <td>12</td> -->
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <!-- <td>7</td> -->
+                                <td bgcolor="gray">8</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>02</td>
+                    <!-- <td>20</td> -->
+                    <td>B</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="3" bgcolor="orange">@copywrite2024</td>
+                </tr>
+                
+            </tfoot>
+        </table>
+    </center>
+</body>
+</html>
